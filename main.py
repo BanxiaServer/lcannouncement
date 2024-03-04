@@ -1,6 +1,7 @@
 # 多个字符替换 搭配vscod使用 输出内容在控制台 只需要把 修改后的 Base64 字符串 复制替换掉核心源码中原来的字符串即可
 # https://www.toolhelper.cn/EncodeDecode/Base64EncodeDecode base64编码/解码 预览更改 网站
 # 有字数限制 要保证解码预览utf-8时最后结尾有这三个字符[סR�] 一定不要写超了
+# 使用本文件更改的核心请不要用于商业目的以及任何与金钱相关的活动 不要倒卖
 import base64
 
 # 原始的 Base64 编码字符串 ser全局搜索这个字符串即可找到要更改的文件 
@@ -39,6 +40,8 @@ modified_base64_string = base64.b64encode(original_byte_data_modified).decode()
 
 # 展示修改后的 Base64 字符串
 print("修改后的 Base64 字符串:", modified_base64_string)
+print("使用本文件更改的核心请不要用于商业目的以及任何与金钱相关的活动 不要倒卖")
+
 
 '''
 废弃内容 废弃内容 废弃内容
